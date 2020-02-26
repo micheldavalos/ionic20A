@@ -1,5 +1,11 @@
 {
   "name": "escuela",
   "integrations": {},
-  "type": "ionic-angular"
+  "type": "ionic-angular",
+  "proxies": [
+    {
+      "path": "/escuela",
+      "proxyUrl": "http://127.0.0.1:5000"
+    }    
+  ]
 }
